@@ -37,9 +37,7 @@ public class SystemScript : MonoBehaviour
     public void GetPoint()
     {
         //Q5 ポイントの加算
-        point += 100;
         //Q6　ポイントの更新
-        textMeshProUGUI.text = point.ToString() + "pt";
     }
     public void Instance()
     {
@@ -54,7 +52,6 @@ public class SystemScript : MonoBehaviour
         if (rigidScript.RotateCheck() == true)
         {
             //Q3 オブジェクトの回転
-            block.transform.Rotate(0, 0, 90);
         }
     }
     // Update is called once per frame
